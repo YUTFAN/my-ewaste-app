@@ -1,0 +1,21 @@
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #333;
+  transition: transform 0.2s, color 0.2s;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.action:hover {
+  transform: scale(1.05);
+  color: #2c609b;
+}
+
+.action.active {
+  color: #2c609b;
+  font-weight: bold;
+  border-bottom: 2px solid #2c609b;
+}
